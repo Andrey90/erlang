@@ -1,0 +1,5 @@
+-module(p07).
+-export([flatten/1]).
+
+flatten([H|T], Acc) -> flatten([_H|T], Acc),
+flatten([T|Acc], Acc) ->

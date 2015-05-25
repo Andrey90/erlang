@@ -1,0 +1,5 @@
+-module(test2).
+-export([func/1]).
+
+func([_H|T]) -> func(T).
+
